@@ -18,4 +18,27 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://executeautomation.com/demosite/Login.html')
+
+WebUI.setText(findTestObject('Page_Execute Automation (1)/input_UserName'), 'admin')
+
+WebUI.setText(findTestObject('Page_Execute Automation (1)/input_Password'), 'admin')
+
+WebUI.click(findTestObject('Page_Execute Automation (1)/input_Login'))
+
+WebUI.selectOptionByValue(findTestObject('Page_Execute Automation (1)/select_TitleId'), '2', true)
+
+WebUI.setText(findTestObject('Page_Execute Automation (1)/input_Initial'), 'JJ')
+
+WebUI.setText(findTestObject('Page_Execute Automation (1)/input_FirstName'), 'JJ')
+
+WebUI.setText(findTestObject('Page_Execute Automation (1)/input_MiddleName'), 'JJ')
+
+WebUI.click(findTestObject('Page_Execute Automation (1)/input_Save'))
+
+WebUI.closeBrowser()
 

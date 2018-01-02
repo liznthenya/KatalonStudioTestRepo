@@ -4,6 +4,7 @@
    <name>KatalonGit</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <lastRun>2018-01-02T14:09:51</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -15,5 +16,11 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Test Case 2</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c1eb3f30-8ec2-4cea-ae66-2764b9397ae6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Test Case1</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

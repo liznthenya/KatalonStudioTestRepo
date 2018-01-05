@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="HRMTestSuite" time="61" tests="0" failures="1" errors="0">
+   <testsuite name="HRMTestSuite" tests="0" failures="1" errors="0" time="61" timestamp="2018-01-03 14:06:52" hostname="ENguli - LTTECH1550.safaricom.net" id="Test Suites/HRMTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\enguli\\git\\KatalonStudioTestRepo\\Reports\\HRMTestSuite\\20180103_140649"/>
+         <property name="logFiles" value="C:\\Users\\enguli\\git\\KatalonStudioTestRepo\\Reports\\HRMTestSuite\\20180103_140649\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\enguli\\git\\KatalonStudioTestRepo\\Reports\\HRMTestSuite\\20180103_140649\\1514977672242.png, C:\\Users\\enguli\\git\\KatalonStudioTestRepo\\Reports\\HRMTestSuite\\20180103_140649\\1514977672687.png"/>
+         <property name="hostName" value="ENguli - LTTECH1550.safaricom.net"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+         <property name="browser" value="Chrome 63.0.3239.84"/>
+         <property name="hostAddress" value="172.29.58.55"/>
+         <property name="sessionId" value="5abec5055803a45aa71dd255ad962a55"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=MANUAL_CONFIG, proxyServerType=HTTP, password=, proxyServerAddress=172.28.200.101, proxyServerPort=8080}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/HRM_Login" classname="Test Cases/HRM_Login" status="FAILED">
+         <failure type="FAILED" message="Unable to verify object 'Object Repository/Page_OrangeHRM/span_Invalid credentials' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_OrangeHRM/span_Invalid credentials' located by 'By.xpath: //span[count(. | //*[@id = 'spanMessage']) = count(//*[@id = 'spanMessage'])][count(. | //*[text() = 'Invalid credentials']) = count(//*[text() = 'Invalid credentials'])]' not found)"/>
+         <system-out><![CDATA[2018-01-03 14:06:53 - [TEST_CASE][FAILED] - Test Cases/HRM_Login: Test Cases/HRM_Login FAILED because (of) Unable to verify object 'Object Repository/Page_OrangeHRM/span_Invalid credentials' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_OrangeHRM/span_Invalid credentials' located by 'By.xpath: //span[count(. | //*[@id = 'spanMessage']) = count(//*[@id = 'spanMessage'])][count(. | //*[text() = 'Invalid credentials']) = count(//*[text() = 'Invalid credentials'])]' not found)
+
+2018-01-03 14:06:53 - [TEST_STEP][FAILED] - Statement - For ([row = 1, row <= com.kms.katalon.core.testdata.TestDataFactory.findTestData(HRMLogin).getRowNumbers(), (row++)]): Unable to verify object 'Object Repository/Page_OrangeHRM/span_Invalid credentials' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_OrangeHRM/span_Invalid credentials' located by 'By.xpath: //span[count(. | //*[@id = 'spanMessage']) = count(//*[@id = 'spanMessage'])][count(. | //*[text() = 'Invalid credentials']) = count(//*[text() = 'Invalid credentials'])]' not found)
+
+2018-01-03 14:06:54 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-03 14:07:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-03 14:07:00 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://opensource.demo.orangehrmlive.com/' successfully
+
+2018-01-03 14:07:07 - [MESSAGE][PASSED] - Navigate to 'http://opensource.demo.orangehrmlive.com/' successfully
+
+2018-01-03 14:07:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_OrangeHRM/span_Username' is clicked on
+
+2018-01-03 14:07:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/span_Username' is clicked on
+
+2018-01-03 14:07:07 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/Page_OrangeHRM/input_txtUsername'
+
+2018-01-03 14:07:07 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Page_OrangeHRM/input_txtUsername'
+
+2018-01-03 14:07:07 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/Page_OrangeHRM/input_txtPassword'
+
+2018-01-03 14:07:07 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Page_OrangeHRM/input_txtPassword'
+
+2018-01-03 14:07:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_OrangeHRM/input_Submit' is clicked on
+
+2018-01-03 14:07:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/input_Submit' is clicked on
+
+2018-01-03 14:07:09 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_OrangeHRM/span_Invalid credentials), 0) == true): Actual text and expected text of test object 'Object Repository/Page_OrangeHRM/span_Invalid credentials' are matched.
+
+2018-01-03 14:07:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-03 14:07:09 - [MESSAGE][PASSED] - Object 'Object Repository/Page_OrangeHRM/span_Invalid credentials' is present
+
+2018-01-03 14:07:09 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_OrangeHRM/span_Invalid credentials' are matched.
+
+2018-01-03 14:07:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OrangeHRM/span_Invalid credentials' are matched.
+
+2018-01-03 14:07:09 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-01-03 14:07:09 - [MESSAGE][PASSED] - Browser is closed
+
+2018-01-03 14:07:10 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-03 14:07:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-03 14:07:12 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://opensource.demo.orangehrmlive.com/' successfully
+
+2018-01-03 14:07:16 - [MESSAGE][PASSED] - Navigate to 'http://opensource.demo.orangehrmlive.com/' successfully
+
+2018-01-03 14:07:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_OrangeHRM/span_Username' is clicked on
+
+2018-01-03 14:07:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/span_Username' is clicked on
+
+2018-01-03 14:07:16 - [TEST_STEP][PASSED] - setText: Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_txtUsername'
+
+2018-01-03 14:07:16 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_txtUsername'
+
+2018-01-03 14:07:16 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_OrangeHRM/input_txtPassword'
+
+2018-01-03 14:07:16 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_OrangeHRM/input_txtPassword'
+
+2018-01-03 14:07:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_OrangeHRM/input_Submit' is clicked on
+
+2018-01-03 14:07:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/input_Submit' is clicked on
+
+2018-01-03 14:07:21 - [TEST_STEP][FAILED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_OrangeHRM/span_Invalid credentials), 0) == true): Unable to verify object 'Object Repository/Page_OrangeHRM/span_Invalid credentials' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_OrangeHRM/span_Invalid credentials' located by 'By.xpath: //span[count(. | //*[@id = 'spanMessage']) = count(//*[@id = 'spanMessage'])][count(. | //*[text() = 'Invalid credentials']) = count(//*[text() = 'Invalid credentials'])]' not found)
+
+2018-01-03 14:07:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-03 14:07:52 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_OrangeHRM/span_Invalid credentials' located by 'By.xpath: //span[count(. | //*[@id = 'spanMessage']) = count(//*[@id = 'spanMessage'])][count(. | //*[text() = 'Invalid credentials']) = count(//*[text() = 'Invalid credentials'])]' not found
+[[ATTACHMENT|C:\\Users\\enguli\\git\\KatalonStudioTestRepo\\Reports\\HRMTestSuite\\20180103_140649\\1514977672242.png]]
+
+2018-01-03 14:07:52 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Page_OrangeHRM/span_Invalid credentials' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_OrangeHRM/span_Invalid credentials' located by 'By.xpath: //span[count(. | //*[@id = 'spanMessage']) = count(//*[@id = 'spanMessage'])][count(. | //*[text() = 'Invalid credentials']) = count(//*[text() = 'Invalid credentials'])]' not found)
+[[ATTACHMENT|C:\\Users\\enguli\\git\\KatalonStudioTestRepo\\Reports\\HRMTestSuite\\20180103_140649\\1514977672687.png]]]]></system-out>
+         <system-err><![CDATA[2018-01-03 14:06:53 - [TEST_CASE][FAILED] - Test Cases/HRM_Login: Test Cases/HRM_Login FAILED because (of) Unable to verify object 'Object Repository/Page_OrangeHRM/span_Invalid credentials' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_OrangeHRM/span_Invalid credentials' located by 'By.xpath: //span[count(. | //*[@id = 'spanMessage']) = count(//*[@id = 'spanMessage'])][count(. | //*[text() = 'Invalid credentials']) = count(//*[text() = 'Invalid credentials'])]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-01-03 14:06:52 - [TEST_SUITE][FAILED] - HRMTestSuite: Test Cases/HRM_Login FAILED because (of) Unable to verify object 'Object Repository/Page_OrangeHRM/span_Invalid credentials' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_OrangeHRM/span_Invalid credentials' located by 'By.xpath: //span[count(. | //*[@id = 'spanMessage']) = count(//*[@id = 'spanMessage'])][count(. | //*[text() = 'Invalid credentials']) = count(//*[text() = 'Invalid credentials'])]' not found)]]></system-out>
+      <system-err><![CDATA[2018-01-03 14:06:52 - [TEST_SUITE][FAILED] - HRMTestSuite: Test Cases/HRM_Login FAILED because (of) Unable to verify object 'Object Repository/Page_OrangeHRM/span_Invalid credentials' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_OrangeHRM/span_Invalid credentials' located by 'By.xpath: //span[count(. | //*[@id = 'spanMessage']) = count(//*[@id = 'spanMessage'])][count(. | //*[text() = 'Invalid credentials']) = count(//*[text() = 'Invalid credentials'])]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

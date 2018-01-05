@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+HRMTestSuite,Chrome 63.0.3239.84,,2018-01-03 14:05:00,2018-01-03 14:05:56,56.198s,FAILED
+,,,,,,
+Test Cases/HRM_Login,Chrome 63.0.3239.84,,2018-01-03 14:05:01,2018-01-03 14:05:56,55.031s,FAILED
+"Statement - For ([row = 1, row <= com.kms.katalon.core.testdata.TestDataFactory.findTestData(HRMLogin).getRowNumbers(), (row++)])",Chrome 63.0.3239.84,,2018-01-03 14:05:01,2018-01-03 14:05:56,54.523s,FAILED

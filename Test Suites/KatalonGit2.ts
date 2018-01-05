@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>KatalonGit</name>
+   <name>KatalonGit2</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-01-04T15:16:24</lastRun>
-   <mailRecipient>liznthenya@gmail.com;</mailRecipient>
+   <lastRun>2018-01-02T16:27:19</lastRun>
+   <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>d481d97c-9c31-4472-9b3f-4ffd256d8008</testSuiteGuid>
+   <testSuiteGuid>b6898ff2-7efc-4c07-979e-61ba72bdef41</testSuiteGuid>
    <testCaseLink>
-      <guid>c1eb3f30-8ec2-4cea-ae66-2764b9397ae6</guid>
+      <guid>9ac7fa68-647e-4fa6-b898-4716f02277c4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Test Case1</testCaseId>
+      <testCaseId>Test Cases/Login/Test Case1</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>5b41ced1-0def-46ad-8175-e75c36afabd6</guid>
+      <guid>3a9f744b-ca39-4777-bdd1-a7c0426fd1e0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Test Case 2</testCaseId>

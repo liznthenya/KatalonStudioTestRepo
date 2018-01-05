@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="KatalonGit2" time="42" tests="0" failures="2" errors="0">
+   <testsuite name="KatalonGit2" tests="0" failures="2" errors="0" time="42" timestamp="2018-01-02 16:22:28" hostname="ENguli - LTTECH1550.safaricom.net" id="Test Suites/KatalonGit2">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\enguli\\git\\KatalonStudioTestRepo\\Reports\\KatalonGit2\\20180102_162225"/>
+         <property name="logFiles" value="C:\\Users\\enguli\\git\\KatalonStudioTestRepo\\Reports\\KatalonGit2\\20180102_162225\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ENguli - LTTECH1550.safaricom.net"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+         <property name="browser" value="Firefox 54.0"/>
+         <property name="hostAddress" value="192.168.43.131"/>
+         <property name="sessionId" value="b7c62e14-826f-4b32-8114-ed0ea66861b2"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Login/Test Case1" classname="Test Cases/Login/Test Case1" status="FAILED">
+         <failure type="FAILED" message="Unable to navigate to 'http://executeautomation.com/demosite/Login.html' (Root cause: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:32703 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LTTECH1550', ip: '192.168.43.131', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver)"/>
+         <system-out><![CDATA[2018-01-02 16:22:28 - [TEST_CASE][FAILED] - Test Cases/Login/Test Case1: Test Cases/Login/Test Case1 FAILED because (of) Unable to navigate to 'http://executeautomation.com/demosite/Login.html' (Root cause: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:32703 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LTTECH1550', ip: '192.168.43.131', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver)
+
+2018-01-02 16:22:29 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-02 16:22:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-02 16:22:57 - [TEST_STEP][FAILED] - navigateToUrl: Unable to navigate to 'http://executeautomation.com/demosite/Login.html' (Root cause: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:32703 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LTTECH1550', ip: '192.168.43.131', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver)
+
+2018-01-02 16:23:08 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-01-02 16:23:08 - [MESSAGE][FAILED] - Unable to navigate to 'http://executeautomation.com/demosite/Login.html' (Root cause: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:32703 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LTTECH1550', ip: '192.168.43.131', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver)]]></system-out>
+         <system-err><![CDATA[2018-01-02 16:22:28 - [TEST_CASE][FAILED] - Test Cases/Login/Test Case1: Test Cases/Login/Test Case1 FAILED because (of) Unable to navigate to 'http://executeautomation.com/demosite/Login.html' (Root cause: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:32703 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LTTECH1550', ip: '192.168.43.131', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Case 2" classname="Test Cases/Test Case 2" status="FAILED">
+         <failure type="FAILED" message="Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:32703 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LTTECH1550', ip: '192.168.43.131', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver)"/>
+         <system-out><![CDATA[2018-01-02 16:23:08 - [TEST_CASE][FAILED] - Test Cases/Test Case 2: Test Cases/Test Case 2 FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:32703 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LTTECH1550', ip: '192.168.43.131', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver)
+
+2018-01-02 16:23:08 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:32703 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LTTECH1550', ip: '192.168.43.131', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver)
+
+2018-01-02 16:23:08 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-01-02 16:23:10 - [MESSAGE][FAILED] - Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:32703 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LTTECH1550', ip: '192.168.43.131', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver)]]></system-out>
+         <system-err><![CDATA[2018-01-02 16:23:08 - [TEST_CASE][FAILED] - Test Cases/Test Case 2: Test Cases/Test Case 2 FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:32703 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LTTECH1550', ip: '192.168.43.131', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-01-02 16:22:28 - [TEST_SUITE][FAILED] - KatalonGit2: Test Cases/Login/Test Case1 FAILED because (of) Unable to navigate to 'http://executeautomation.com/demosite/Login.html' (Root cause: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:32703 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LTTECH1550', ip: '192.168.43.131', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver)]]></system-out>
+      <system-err><![CDATA[2018-01-02 16:22:28 - [TEST_SUITE][FAILED] - KatalonGit2: Test Cases/Login/Test Case1 FAILED because (of) Unable to navigate to 'http://executeautomation.com/demosite/Login.html' (Root cause: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:32703 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LTTECH1550', ip: '192.168.43.131', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver)]]></system-err>
+   </testsuite>
+</testsuites>

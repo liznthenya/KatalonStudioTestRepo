@@ -4,5 +4,5 @@
    <name>KatalonStudioTestRepo</name>
    <tag></tag>
    <UUID>b0736fe2-3c76-414b-b084-70c11a85beca</UUID>
-   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeout>0</pageLoadTimeout>
 </Project>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="KatalonGit2" time="35" tests="2" failures="0" errors="0">
+   <testsuite name="KatalonGit2" tests="2" failures="0" errors="0" time="35" timestamp="2018-01-02 16:26:36" hostname="ENguli - LTTECH1550.safaricom.net" id="Test Suites/KatalonGit2">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\enguli\\git\\KatalonStudioTestRepo\\Reports\\KatalonGit2\\20180102_162634"/>
+         <property name="logFiles" value="C:\\Users\\enguli\\git\\KatalonStudioTestRepo\\Reports\\KatalonGit2\\20180102_162634\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ENguli - LTTECH1550.safaricom.net"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+         <property name="browser" value="Firefox 54.0"/>
+         <property name="hostAddress" value="192.168.43.131"/>
+         <property name="sessionId" value="2756527d-c042-4ebc-9b64-c233d454710f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Login/Test Case1" classname="Test Cases/Login/Test Case1" status="PASSED">
+         <system-out><![CDATA[2018-01-02 16:26:37 - [TEST_CASE][PASSED] - Test Cases/Login/Test Case1: Test Cases/Login/Test Case1
+
+2018-01-02 16:26:37 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-02 16:26:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-02 16:26:54 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://executeautomation.com/demosite/Login.html' successfully
+
+2018-01-02 16:26:56 - [MESSAGE][PASSED] - Navigate to 'http://executeautomation.com/demosite/Login.html' successfully
+
+2018-01-02 16:26:56 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_Execute Automation/input_UserName'
+
+2018-01-02 16:26:56 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Execute Automation/input_UserName'
+
+2018-01-02 16:26:56 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_Execute Automation/input_Password'
+
+2018-01-02 16:26:56 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Execute Automation/input_Password'
+
+2018-01-02 16:26:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Execute Automation/input_Login' is clicked on
+
+2018-01-02 16:26:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Execute Automation/input_Login' is clicked on
+
+2018-01-02 16:26:57 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-01-02 16:26:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Case 2" classname="Test Cases/Test Case 2" status="PASSED">
+         <system-out><![CDATA[2018-01-02 16:26:58 - [TEST_CASE][PASSED] - Test Cases/Test Case 2: Test Cases/Test Case 2
+
+2018-01-02 16:26:58 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-02 16:27:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-02 16:27:07 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://executeautomation.com/demosite/Login.html' successfully
+
+2018-01-02 16:27:09 - [MESSAGE][PASSED] - Navigate to 'http://executeautomation.com/demosite/Login.html' successfully
+
+2018-01-02 16:27:09 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_Execute Automation (1)/input_UserName'
+
+2018-01-02 16:27:09 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Execute Automation (1)/input_UserName'
+
+2018-01-02 16:27:09 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_Execute Automation (1)/input_Password'
+
+2018-01-02 16:27:10 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Execute Automation (1)/input_Password'
+
+2018-01-02 16:27:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Execute Automation (1)/input_Login' is clicked on
+
+2018-01-02 16:27:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Execute Automation (1)/input_Login' is clicked on
+
+2018-01-02 16:27:11 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '2' are selected in object 'Object Repository/Page_Execute Automation (1)/select_TitleId'  using regular expression
+
+2018-01-02 16:27:11 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Page_Execute Automation (1)/select_TitleId'  using regular expression
+
+2018-01-02 16:27:11 - [TEST_STEP][PASSED] - setText: Text 'JJ' is set on object 'Object Repository/Page_Execute Automation (1)/input_Initial'
+
+2018-01-02 16:27:12 - [MESSAGE][PASSED] - Text 'JJ' is set on object 'Object Repository/Page_Execute Automation (1)/input_Initial'
+
+2018-01-02 16:27:12 - [TEST_STEP][PASSED] - setText: Text 'JJ' is set on object 'Object Repository/Page_Execute Automation (1)/input_FirstName'
+
+2018-01-02 16:27:12 - [MESSAGE][PASSED] - Text 'JJ' is set on object 'Object Repository/Page_Execute Automation (1)/input_FirstName'
+
+2018-01-02 16:27:12 - [TEST_STEP][PASSED] - setText: Text 'JJ' is set on object 'Object Repository/Page_Execute Automation (1)/input_MiddleName'
+
+2018-01-02 16:27:12 - [MESSAGE][PASSED] - Text 'JJ' is set on object 'Object Repository/Page_Execute Automation (1)/input_MiddleName'
+
+2018-01-02 16:27:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Execute Automation (1)/input_Save' is clicked on
+
+2018-01-02 16:27:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Execute Automation (1)/input_Save' is clicked on
+
+2018-01-02 16:27:12 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-01-02 16:27:12 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-01-02 16:26:36 - [TEST_SUITE][PASSED] - KatalonGit2: Test Cases/Test Case 2]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

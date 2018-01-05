@@ -4,7 +4,7 @@
    <name>KatalonGit</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-01-05T18:01:32</lastRun>
+   <lastRun>2018-01-05T18:16:30</lastRun>
    <mailRecipient>liznthenya@gmail.com;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

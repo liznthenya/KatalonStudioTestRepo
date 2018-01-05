@@ -24,15 +24,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://opensource.demo.orangehrmlive.com/')
 
-WebUI.click(findTestObject('Page_OrangeHRM (1)/span_Username'))
-
-WebUI.setText(findTestObject('Page_OrangeHRM (1)/input_txtUsername'), 'Admin')
-
-WebUI.doubleClick(findTestObject('Page_OrangeHRM (1)/input_txtPassword'))
-
-WebUI.setText(findTestObject('Page_OrangeHRM (1)/input_txtPassword'), 'ADMIN')
-
-WebUI.click(findTestObject('Page_OrangeHRM (1)/input_Submit'))
+WebUI.click(findTestObject('Page_OrangeHRM (2)/div_divLogo'))
 
 WebUI.closeBrowser()
 
